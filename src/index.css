@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-sand-light: #F4EFEB;
+    --color-sand-aged: #ECE5DD;
+    --color-sand-card: #FAF7F3;
+    --color-ocean-deep: #102231;
+    --color-ocean-muted: #1E3547;
+    --color-sunset-amber: #C8783E;
+    --color-sunset-glow: #E6965C;
+    --color-faded-black: #1E2225;
+    --color-basalt-mid: #485056;
+    --color-basalt-light: #8C969F;
+    --color-border-subtle: rgba(16, 34, 49, 0.12);
+  }
+
+  body {
+    background-color: var(--color-sand-light);
+    color: var(--color-faded-black);
+    font-family: 'Newsreader', Georgia, serif;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+  }
+
+  /* Custom utility font families */
+  .font-serif-display {
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+  }
+
+  .font-serif-body {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+
+  .font-sans-ui {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-mono-tag {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Film grain effect overlay */
+.film-grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
+}
+
+/* Subtle image zoom on hover for editorial cards */
+.editorial-image-hover {
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+}
+.editorial-image-hover:hover {
+  transform: scale(1.03);
+}
+
+/* Smooth custom scrollbar for horizontal strips */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ECE5DD;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8783E;
+  border-radius: 3px;
+}

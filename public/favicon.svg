@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#102231" />
+  <circle cx="32" cy="32" r="28" stroke="#ECE5DD" stroke-width="0.75" stroke-dasharray="2 3" />
+  <circle cx="32" cy="32" r="2" fill="#ECE5DD" />
+  <path d="M32 10V22M32 42V54M10 32H22M42 32H54" stroke="#ECE5DD" stroke-width="1" stroke-linecap="round" />
+  <polygon points="32,16 34.5,30 32,32 29.5,30" fill="#C8783E" />
+  <polygon points="32,48 34.5,34 32,32 29.5,34" fill="#ECE5DD" opacity="0.6" />
+</svg>
