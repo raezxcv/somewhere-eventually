@@ -87,3 +87,4 @@ export interface Contributor {
   avatar: string;
   recentDispatch: string;
 }
+

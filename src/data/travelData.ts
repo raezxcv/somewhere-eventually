@@ -622,3 +622,4 @@ export const PHILOSOPHY_POINTS = [
     text: 'The soul of a place does not reside in its monuments. It lives in the rust on a harbor bollard, the worn leather handle of a railway carriage door, the grease pencil mark on a surveyor’s map, and the quiet dignity of people who have lived in the same valley for generations.'
   }
 ];
+
